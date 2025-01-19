@@ -14,7 +14,7 @@ const initializedbandserver = async () => {
     })
     app.listen(3000, () => {
       console.log('server started')
-      //addaed
+      //added
     })
   } catch (e) {
     console.log(`db error ${e.message}`)
